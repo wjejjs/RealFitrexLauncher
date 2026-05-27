@@ -1,10 +1,22 @@
-name: Find Android Project
+name: Build Android APK
 on: [push]
 jobs:
-  find:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Locate Android Build File
-        # Szukamy pliku, który deklaruje plugin androida
-        run: grep -r "com.android.application" .
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      
+      # Budujemy konkretny moduł, który znaleźliśmy
+      - name: Build with Gradle
+        run: ./gradlew :RealFitrexLauncher:RealFitrexLauncher:assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: RealFitrex-APK
+          path: '**/build/outputs/apk/debug/*.apk'
