@@ -10,6 +10,5 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Build with Gradle
-        # Budujemy tylko launcher, ignorując problematyczne moduły JRE
-        run: ./gradlew :RealFitrexLauncher:assembleDebug
+      - name: List all tasks
+        run: ./gradlew tasks --all
