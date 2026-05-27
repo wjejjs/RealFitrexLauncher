@@ -1,14 +1,23 @@
-name: Debug Projects
+name: Build Android APK
 on: [push]
 jobs:
-  debug:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Java
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: List all detected projects
-        run: ./gradlew projects
+
+      # Budujemy tylko moduł aplikacji
+      - name: Build with Gradle
+        run: ./gradlew :RealFitrexLauncher:assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: RealFitrex-APK
+          # Szukamy APK wewnątrz folderu tego modułu
+          path: 'RealFitrexLauncher/build/outputs/apk/debug/*.apk'
