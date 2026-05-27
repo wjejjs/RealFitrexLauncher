@@ -10,10 +10,14 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      
-      # Budujemy konkretny moduł, który znaleźliśmy
-      - name: Build with Gradle
-        run: ./gradlew :RealFitrexLauncher:RealFitrexLauncher:assembleDebug
+
+      # To nam powie, jak nazywa się poprawna ścieżka (np. :app)
+      - name: List projects
+        run: ./gradlew projects
+
+      # Próbujemy zbudować wszystko, co się da (bez podawania ścieżki)
+      - name: Build All
+        run: ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
