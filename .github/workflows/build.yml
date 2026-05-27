@@ -10,5 +10,14 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: List all tasks
-        run: ./gradlew tasks --all
+      
+      # To polecenie zbuduje plik APK
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug
+
+      # To polecenie zapisze plik APK jako Artifact
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-debug
+          path: '**/build/outputs/apk/debug/*.apk'
