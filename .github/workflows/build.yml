@@ -20,7 +20,9 @@ jobs:
           distribution: 'temurin'
 
       - name: Build Debug APK
-        run: ./gradlew :ZalithLauncher:assembleDebug
+        run: |
+          chmod +x gradlew
+          ./gradlew :ZalithLauncher:assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
