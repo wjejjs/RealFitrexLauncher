@@ -1,24 +1,10 @@
-name: Build Pojav-style Project
+name: Find Android Project
 on: [push]
 jobs:
-  build:
+  find:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-
-      - name: Build project
-        # Używamy ./gradlew build, aby zbudować wszystkie moduły
-        run: ./gradlew build
-
-      - name: Upload everything
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-output
-          # Pakujemy wszystko z folderu build, tam powinny być wygenerowane pliki
-          path: '**/build/'
-
+      - name: Locate Android Build File
+        # Szukamy pliku, który deklaruje plugin androida
+        run: grep -r "com.android.application" .
