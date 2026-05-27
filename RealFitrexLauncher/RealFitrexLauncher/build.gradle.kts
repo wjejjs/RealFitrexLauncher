@@ -103,7 +103,12 @@ android {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
             resValue("string", "storageProviderAuthorities", storageProviderId)
-            signingConfig = signingConfigs.getByName("releaseBuild")
+            signingConfig = if (System.getenv("MOVTERY_KEYSTORE_PASSWORD") != null) {
+                signingConfigs.getByName("releaseBuild")
+            } else {
+                // Fallback to debug keystore for local/testing builds when no release keystore password is provided
+                signingConfigs.getByName("customDebug")
+            }
         }
     }
 

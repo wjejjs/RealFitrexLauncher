@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "RealFitrex Launcher"
 include(":jre_lwjgl3glfw")
 include(":RealFitrexLauncher")
+project(":RealFitrexLauncher").projectDir = file("RealFitrexLauncher/RealFitrexLauncher")
