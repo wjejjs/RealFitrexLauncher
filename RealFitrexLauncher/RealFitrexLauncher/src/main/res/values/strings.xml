@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RealFitrex Launcher -->
+    <string formatted="false" name="generic_open">Open</string>
+    <string formatted="false" name="generic_close">Close</string>
+    <string formatted="false" name="generic_return">Return</string>
+    <string formatted="false" name="generic_edit">Edit</string>
+    <string formatted="false" name="generic_share">Share</string>
+    <string formatted="false" name="generic_move">Move</string>
+    <string formatted="false" name="generic_clone">Clone</string>
+    <string formatted="false" name="generic_paste">Paste</string>
+    <string formatted="false" name="generic_delete">Delete</string>
+    <string formatted="false" name="generic_refresh">Refresh</string>
+    <string formatted="false" name="generic_rename">Rename</string>
+    <string formatted="false" name="generic_more">More</string>
+    <string formatted="false" name="generic_search">Search</string>
+    <string formatted="false" name="generic_tip">Tip</string>
+    <string formatted="false" name="generic_confirm">Confirm</string>
+    <string formatted="false" name="generic_unknown">Unknown</string>
+    <string formatted="false" name="generic_warning">Warning</string>
+    <string formatted="false" name="generic_ok">OK</string>
+    <string formatted="false" name="generic_error">Error</string>
+    <string formatted="false" name="generic_load">Load</string>
+    <string formatted="false" name="generic_name">Name</string>
+    <string formatted="false" name="generic_restart">Restart</string>
+    <string formatted="false" name="generic_reset">Reset</string>
+    <string formatted="false" name="generic_save">Save</string>
+    <string formatted="false" name="generic_unpacking">Unpacking %s</string>
+    <string formatted="false" name="generic_error_field_empty">This field cannot be empty</string>
+    <string formatted="false" name="generic_keyboard">Keyboard</string>
+    <string formatted="false" name="generic_waiting">Please wait</string>
+    <string formatted="false" name="generic_select">Select</string>
+    <string formatted="false" name="generic_default">Default</string>
+    <string formatted="false" name="generic_loading">Loading</string>
+    <string formatted="false" name="generic_optional">Optional</string>
+    <string formatted="false" name="generic_required">Required</string>
+    <string formatted="false" name="generic_all">All</string>
+    <string formatted="false" name="generic_wan">Ten Thousand</string>
+    <string formatted="false" name="generic_yi">Billion</string>
+    <string formatted="false" name="generic_login">Login</string>
+    <string formatted="false" name="generic_wrong_tip">Something went wrong</string>
+    <string formatted="false" name="generic_no_more_reminders">No more reminders</string>
+    <string formatted="false" name="generic_no_network">Not connected to the internet. Please check your device\'s network connection!</string>
+    <string formatted="false" name="generic_input_invalid">The input is invalid, please try again</string>
+    <string formatted="false" name="generic_input_invalid_character">The name contains an invalid character: "%s"</string>
+    <string formatted="false" name="generic_input_too_small">The value is too small, it must be at least %s</string>
+    <string formatted="false" name="generic_input_too_big">The value is too big, it can be at most %s</string>
+    <string formatted="false" name="generic_copied">Copied</string>
+    <string formatted="false" name="generic_saved">Saved</string>
+    <string formatted="false" name="generic_release">Release</string>
+    <string formatted="false" name="generic_debug">Debug</string>
+    <string formatted="false" name="generic_pre_release">Pre-release</string>
+    <string formatted="false" name="generic_beta">Beta</string>
+    <string formatted="false" name="generic_alpha">Alpha</string>
+    <!-- Error -->
+    <string formatted="false" name="error_fatal">%s crashed unexpectedly</string>
+    <string formatted="false" name="error_no_version">No version!</string>
+    <string formatted="false" name="error_show_more">Show details</string>
+    <string formatted="false" name="error_show_less">Hide details</string>
+    <!-- Launcher -->
+    <string formatted="false" name="option_category_debug">Debug</string>
+    <string formatted="false" name="option_category_control">Control</string>
+    <string formatted="false" name="option_category_hotbar">Hotbar Detection Box</string>
+    <string formatted="false" name="option_force_close">Force Close</string>
+    <string formatted="false" name="option_log_out">Log Output</string>
+    <string formatted="false" name="option_send_custom_key">Send Custom Key Code</string>
+    <string formatted="false" name="option_edit_controls">Edit Control Layout</string>
+    <string formatted="false" name="option_hotbar_type">Hotbar Detection Mode</string>
+    <string formatted="false" name="option_hotbar_type_auto">Adaptive (may be inaccurate)</string>
+    <string formatted="false" name="option_hotbar_type_manually">Manual Adjustment</string>
+    <string formatted="false" name="option_hotbar_width">Detection Box Width</string>
+    <string formatted="false" name="option_hotbar_height">Detection Box Height</string>
+    <string formatted="false" name="customctrl_editor_exit_title">Exit?</string>
+    <string formatted="false" name="customctrl_editor_exit_msg">The current modifications will not be saved. Are you sure you want to exit directly?</string>
+    <string formatted="false" name="customctrl_editor_exit">Exit Editor</string>
+    <string formatted="false" name="global_save_and_exit">Save and Exit</string>
+    <string formatted="false" name="version_snapshot">Snapshot</string>
+    <string formatted="false" name="version_alpha">Alpha</string>
+    <string formatted="false" name="version_beta">Beta</string>
+    <string formatted="false" name="force_exit_confirm">Are you sure you want to force close?</string>
+    <string formatted="false" name="autoram_info_msg">Memory set to %d MB</string>
+    <string formatted="false" name="memory_warning_msg">The available memory (%d) is lower than the allocated memory (%d), which may cause the game to crash. If the game crashes, please change the configuration!</string>
+    <string formatted="false" name="address_memory_warning_msg">The available free memory space (%d) is lower than the allocated memory (%d), which will cause a crash. If the game crashes, please adjust the memory allocation.</string>
+    <string formatted="false" name="notif_channel_name">General</string>
+    <string formatted="false" name="lazy_service_default_title">%s Front Desk Service</string>
+    <string formatted="false" name="progresslayout_tasks_in_progress">%d tasks in progress</string>
+    <string formatted="false" name="notification_terminate">Terminate</string>
+    <string formatted="false" name="notification_game_runs">The game is running!</string>
+    <string formatted="false" name="tasks_ongoing">Tasks are being executed, please wait</string>
+    <string formatted="false" name="mc_download_failed">Failed to download Minecraft! This may be due to poor network connection, incorrect file placement, etc.</string>
+    <string formatted="false" name="microsoft_login_retry_later">Your actions are too frequent, please try again later</string>
+    <string formatted="false" name="storage_required">%s requires external storage, please reconnect and restart the software</string>
+    <string formatted="false" name="dialog_select_jar">Select Jar File</string>
+    <string formatted="false" name="percent_format" translatable="false">%d%%</string>
+    <string formatted="false" name="version_select_hint">Select version (Long press to reset)</string>
+    <string formatted="false" name="notif_error_occured">An error occurred</string>
+    <string formatted="false" name="notif_error_occured_desc">Click to view details</string>
+    <string formatted="false" name="input_preview_tip">Input preview box, capturing soft keyboard input, for reference only:</string>
+    <string formatted="false" name="dl_tampered_manifest_title">File Verification Warning</string>
+    <string formatted="false" name="dl_tampered_manifest"><![CDATA[The game version manifest on the mirror does not match the official Mojang version manifest, which means it may have been tampered with.<br/>
+        <b>This is not safe. Your personal information may be at risk if you continue.</b><br/>
+        If you still want to use the mirror, press \"Turn off manifest checks\" and start the download again.<br/>
+        If you want to use the official download source, press \"Switch to official site\" and start the download again.<br/>]]></string>
+    <string formatted="false" name="dl_turn_off_manifest_checks">Turn off game version list checks</string>
+    <string formatted="false" name="dl_switch_to_official_site">Switch to official download source</string>
+    <string formatted="false" name="notif_download_finished">The game is ready to launch</string>
+    <string formatted="false" name="notif_download_finished_desc">Click here to launch it!</string>
+    <string formatted="false" name="notification_permission_dialog_title">Permission Request</string>
+    <string formatted="false" name="notification_permission_dialog_text">%s requires notification permission to prevent game file downloads from stopping when you leave the app. Without this permission, Android may stop your download progress when %s is in the background.</string>
+    <string formatted="false" name="notification_permission_toast">You can change your mind at any time by going to \"System Settings\"</string>
+    <string formatted="false" name="newdl_starting">Reading game metadata…</string>
+    <string formatted="false" name="newdl_downloading_metadata">Downloading game metadata (%s)</string>
+    <string formatted="false" name="newdl_downloading_game_files">Downloading game files… (%d/%d, %.2f MB)</string>
+    <string formatted="false" name="newdl_downloading_game_files_size">Downloading game files… (%.2f/%.2f MB, %.2f MB/s)</string>
+    <string formatted="false" name="newdl_extracting_native_libraries">Extracting native libraries (%d/%d)</string>
+    <string formatted="false" name="log_view_button_scroll_off">Auto-scroll: Off</string>
+    <string formatted="false" name="log_view_button_scroll_on">Auto-scroll: On</string>
+    <string formatted="false" name="log_view_button_output_off">Output: Off</string>
+    <string formatted="false" name="log_view_button_output_on">Output: On</string>
+    <string formatted="false" name="log_view_label_log_output">Log Output:</string>
+    <string formatted="false" name="execute_jar_failed_to_read_file">Failed to read .jar file</string>
+    <string formatted="false" name="execute_jar_incompatible_runtime">Executing .jar feature is incompatible with Java %d</string>
+    <string formatted="false" name="open_link">Will access this link in the browser:</string>
+    <string formatted="false" name="mod_download_progress">Downloading installer for %s</string>
+    <string formatted="false" name="mod_forge_searching">Searching for Forge version number</string>
+    <string formatted="false" name="mod_neoforge_searching">Searching for NeoForge version number</string>
+    <string formatted="false" name="mod_forge_custom_version">Modifying version name</string>
+    <string formatted="false" name="mod_failed_to_load_list">Failed to load version list!</string>
+    <string formatted="false" name="mod_optifine_progress">Downloading %s</string>
+    <string formatted="false" name="mod_check_dialog_title">Mod Check Report</string>
+    <string formatted="false" name="mod_check_progress_message">Checking mods (%d / %d)</string>
+    <string formatted="false" name="mod_check_touch_controller">Detected that Touch Controller mod (%s) is installed, the launcher is ready to enable control proxy to adapt to the mod.</string>
+    <string formatted="false" name="mod_check_sodium_or_embeddium">Detected installed Sodium or Embeddium mod (%s). The launcher will disable this mod\'s warnings or prevent it from intentionally crashing on Android devices. However, please note that the mod\'s community has explicitly stated that they will no longer accept any issues related to Android devices. Therefore, if you encounter any problems while using this mod, do not report them to the mod\'s community!</string>
+    <string formatted="false" name="mod_check_physics">The currently used physics mod (%s) is unpatched (replacing libPhysXJniBindings_64.so from x86_64 architecture to arm64), will crash on launch.</string>
+    <string formatted="false" name="mod_check_mcef">MCEF (%s) cannot run on Android. It is usually used as a prerequisite dependency for WebDisplays/In-game Browser (browser).</string>
+    <string formatted="false" name="mod_check_valkyrien_skies">Valkyrien Skies/Valkyrien Warfare (%s) cannot run directly in single-player mode. You must run it on a server (Termux can be used), otherwise the game will crash.</string>
+    <string formatted="false" name="mod_check_yes_steve_model">Yes, Steve Model (%s) 2.2.2–2.5.1 cannot run on the Android system.</string>
+    <string formatted="false" name="mod_check_imblocker">IMBlocker/In-GameIME (%s) is not compatible with Android and will cause the game to crash during startup.</string>
+    <string formatted="false" name="mod_check_replay_mod">ReplayMod (%s) requires FFmpeg to render videos. Please install the FFmpeg plugin separately\n%s\n%s</string>
+    <string formatted="false" name="mod_check_borderlesswindow">Borderless Window (%s) is not compatible with Android and will cause the game to crash during startup.</string>
+    <!-- Controls -->
+    <string formatted="false" name="control_primary">Left Click</string>
+    <string formatted="false" name="control_secondary">Right Click</string>
+    <string formatted="false" name="control_mouse">Mouse</string>
+    <string formatted="false" name="control_mouseoff">Mouse: Off</string>
+    <string formatted="false" name="control_mouseon">Mouse: On</string>
+    <string formatted="false" name="customctrl_toggle">Toggleable</string>
+    <string formatted="false" name="customctrl_size">Size</string>
+    <string formatted="false" name="customctrl_mapping">Mapping</string>
+    <string formatted="false" name="customctrl_orientation">Orientation</string>
+    <string formatted="false" name="customctrl_background_color">Background Color</string>
+    <string formatted="false" name="customctrl_corner_radius">Corner Radius</string>
+    <string formatted="false" name="customctrl_stroke_width">Stroke Width</string>
+    <string formatted="false" name="customctrl_stroke_color">Stroke Color</string>
+    <string formatted="false" name="customctrl_button_opacity">Button Opacity</string>
+    <string formatted="false" name="customctrl_addbutton">Add Button</string>
+    <string formatted="false" name="customctrl_addbutton_drawer">Add Drawer</string>
+    <string formatted="false" name="customctrl_addbutton_joystick">Add Joystick</string>
+    <string formatted="false" name="customctrl_addsubbutton">Add Sub-Button</string>
+    <string formatted="false" name="customctrl_selectdefault">Select Default Control Layout</string>
+    <string formatted="false" name="customctrl_export">Save and Share</string>
+    <string formatted="false" name="customctrl_passthru">Mouse Passthrough</string>
+    <string formatted="false" name="customctrl_swipeable">Swipeable</string>
+    <string formatted="false" name="customctrl_forward_lock">Forward Lock</string>
+    <string formatted="false" name="customctrl_absolute_tracking">Force Finger Tracking</string>
+    <string formatted="false" name="controls_tip">Tap the gear icon to open the menu ⚙\nTap a button to customize: edit, resize, delete, or remap</string>
+    <string formatted="false" name="controls_add_control_button">Button</string>
+    <string formatted="false" name="controls_add_control_drawer">Drawer</string>
+    <string formatted="false" name="controls_visibility">Visibility</string>
+    <string formatted="false" name="controls_in_game">In-Game</string>
+    <string formatted="false" name="controls_in_menu">In-Menu</string>
+    <string formatted="false" name="controls_orientation_up">Up</string>
+    <string formatted="false" name="controls_orientation_down">Down</string>
+    <string formatted="false" name="controls_orientation_left">Left</string>
+    <string formatted="false" name="controls_orientation_right">Right</string>
+    <string formatted="false" name="controls_orientation_free">Free</string>
+    <string formatted="false" name="controls_load_failed">Load Failed!</string>
+    <string formatted="false" name="controls_unsupported_layout_version">Unsupported control layout version!</string>
+    <string formatted="false" name="controls_create_new">Create New Control Layout</string>
+    <string formatted="false" name="controls_import_control">Import Control Layout</string>
+    <string formatted="false" name="controls_settings_button_snapping">Button Snapping</string>
+    <string formatted="false" name="controls_settings_button_snapping_distance">Button Snapping Distance</string>
+    <string formatted="false" name="controls_info_file_name">File Name:</string>
+    <string formatted="false" name="controls_info_name">Layout Name:</string>
+    <string formatted="false" name="controls_info_version">Layout Version:</string>
+    <string formatted="false" name="controls_info_author">Author:</string>
+    <string formatted="false" name="controls_info_desc">Description:</string>
+    <string formatted="false" name="controls_info_more">More Info</string>
+    <string formatted="false" name="controls_info_view">View Info</string>
+    <string formatted="false" name="controls_info_no_info">This control layout has no description…</string>
+    <string formatted="false" name="controls_info_invalid">Invalid File:</string>
+    <string formatted="false" name="controls_info_default_title">Default Control Layout</string>
+    <string formatted="false" name="controls_info_default_desc">This is the default control layout file. Click to manipulate this layout.</string>
+    <string formatted="false" name="controls_set_default_message">Are you sure you want to set this control layout as the default?</string>
+    <string formatted="false" name="controls_nothing">There are no control layouts here. Restarting the app will generate a new default layout.</string>
+    <string formatted="false" name="controls_tip_set_default">Long press the control layout to set it as the default control layout!</string>
+    <string formatted="false" name="replacement_customcontrol">Replace Control Layout</string>
+    <string formatted="false" name="custom_control_title">Manage Control Layouts</string>
+    <string formatted="false" name="controller_button_a" translatable="false">A</string>
+    <string formatted="false" name="controller_button_b" translatable="false">B</string>
+    <string formatted="false" name="controller_button_x" translatable="false">X</string>
+    <string formatted="false" name="controller_button_y" translatable="false">Y</string>
+    <string formatted="false" name="controller_button_start">Start</string>
+    <string formatted="false" name="controller_button_trigger_left">Left Trigger</string>
+    <string formatted="false" name="controller_button_trigger_right">Right Trigger</string>
+    <string formatted="false" name="controller_button_shoulder_left">Left Shoulder</string>
+    <string formatted="false" name="controller_button_shoulder_right">Right Shoulder</string>
+    <string formatted="false" name="controller_direction_forward">Joystick Up</string>
+    <string formatted="false" name="controller_direction_backward">Joystick Down</string>
+    <string formatted="false" name="controller_direction_left">Joystick Left</string>
+    <string formatted="false" name="controller_direction_right">Joystick Right</string>
+    <string formatted="false" name="controller_stick_press_l">Left Stick (Press)</string>
+    <string formatted="false" name="controller_stick_press_r">Right Stick (Press)</string>
+    <string formatted="false" name="controller_dpad_up">D-Pad Up</string>
+    <string formatted="false" name="controller_dpad_down">D-Pad Down</string>
+    <string formatted="false" name="controller_dpad_left">D-Pad Left</string>
+    <string formatted="false" name="controller_dpad_right">D-Pad Right</string>
+    <string formatted="false" name="controller_remapper_operating_mode">Current Mode</string>
+    <string formatted="false" name="controller_remapper_expand_entry">Expand to change key code</string>
+
+    <!-- Version -->
+    <string formatted="false" name="version_manager_title">Version Management</string>
+    <string formatted="false" name="version_no_versions">No versions installed</string>
+    <string formatted="false" name="version_install_new">Install new version</string>
+    <string formatted="false" name="version_install_new_modloader">Install %s for new version</string>
+    <string formatted="false" name="version_install_not_install">Do not install</string>
+    <string formatted="false" name="version_install_incompatible">Incompatible with %s</string>
+    <string formatted="false" name="version_install_exists">A version with this name already exists!</string>
+    <string formatted="false" name="version_install_no_versions">No versions available to choose from!</string>
+    <string formatted="false" name="version_install_cannot_use_mc_name">The additional content has been selected, and the independence of the original core must be ensured. Please do not use the original name!</string>
+    <string formatted="false" name="version_install_type_version">Download and install as a version</string>
+    <string formatted="false" name="version_install_type_mod">Download and install as a Mod</string>
+    <string formatted="false" name="version_install_optifine_and_forge">Some versions of OptiFine may not work on Forge, and if you encounter crashes or compatibility issues, consider removing OptiFine first!</string>
+    <string formatted="false" name="version_install_log_flood_warning">If the logs flood the screen and cause the device to lag during installation, click here to close the logs!</string>
+    <string formatted="false" name="version_manager_shortcuts">Shortcuts</string>
+    <string formatted="false" name="version_manager_shortcuts_mods">Mod Management</string>
+    <string formatted="false" name="version_manager_shortcuts_version_path">Game Path Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_resource_path">Resource Pack Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_world_path">World Save Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_shader_path">Shader Pack Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_screenshot_path">Screenshot Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_logs_path">Log Folder</string>
+    <string formatted="false" name="version_manager_shortcuts_crash_report_path">Crash Report Folder</string>
+    <string formatted="false" name="version_manager_rename">Rename Version</string>
+    <string formatted="false" name="version_manager_copy">Copy Version</string>
+    <string formatted="false" name="version_manager_copy_tip">Copy the current version as a new one with version isolation enabled by default. If "Copy All Files" below is enabled, all files generated by the current version (resource packs, saves, game settings, etc.) will be copied as well.</string>
+    <string formatted="false" name="version_manager_copy_all">Copy All Files</string>
+    <string formatted="false" name="version_manager_delete">Delete Version</string>
+    <string formatted="false" name="version_manager_delete_tip">Deleting a version will also delete all files in the \"./versions/%s\" directory, including important resources such as game saves, resource packs, mods, etc., even if version isolation is not enabled. Therefore, please make sure to backup before performing this operation!</string>
+    <string formatted="false" name="version_manager_delete_tip_invalid">The current version is missing the version JSON file and is therefore considered an invalid version. You cannot select this version. Click Confirm to delete this erroneous version.</string>
+    <string formatted="false" name="version_manager_task_in_progress">Task in progress, version management is temporarily unavailable</string>
+    <string formatted="false" name="version_manager_invalid">This version is invalid</string>
+    <string formatted="false" name="version_manager_no_installed_version">Launcher did not find any installed Minecraft!</string>
+    <string formatted="false" name="version_manager_isolation_type_follow_global">Follow Launcher Settings</string>
+    <string formatted="false" name="version_manager_favorites_add_category">Add Favorite</string>
+    <string formatted="false" name="version_manager_favorites_remove_folder_title">Remove Favorite</string>
+    <string formatted="false" name="version_manager_favorites_remove_folder_message">Are you sure you want to remove this favorite? After removal, the information in the current favorite will be cleared, and this operation cannot be undone!</string>
+    <string formatted="false" name="version_manager_favorites_write_folder_name">Name New Favorite</string>
+    <string formatted="false" name="version_manager_favorites_dialog_title">Add to Favorite</string>
+    <string formatted="false" name="version_manager_favorites_dialog_no_folders">No favorites yet, please add a favorite first!</string>
+    <!-- Permissions -->
+    <string formatted="false" name="permissions_manage_external_storage">%s requires permission to manage all files on the device to use this feature properly. Please enable the permission!</string>
+    <string formatted="false" name="permissions_write_external_storage">%s requires storage management permission. If the permission is not enabled, it may cause issues such as game files failing to save or decompress properly. Please grant the permission to ensure proper functionality.</string>
+    <string formatted="false" name="permissions_storage_for_renderer_config">The selected renderer plugin %s may have settings. If %s lacks storage access, its settings cannot be read. Grant permission for proper function.</string>
+    <!-- Profiles Path -->
+    <string formatted="false" name="profiles_path_title">Game Path Management</string>
+    <string formatted="false" name="profiles_path_default">Default Path</string>
+    <string formatted="false" name="profiles_path_settings">Open Path Settings</string>
+    <string formatted="false" name="profiles_path_settings_goto">Open this directory</string>
+    <string formatted="false" name="profiles_path_create_new">Add New Path</string>
+    <string formatted="false" name="profiles_path_create_new_title">Name this path</string>
+    <string formatted="false" name="profiles_path_delete_title">Delete this path</string>
+    <string formatted="false" name="profiles_path_delete_message">The launcher will delete this path, but will not delete the files saved within it. You can still re-add this path after deletion.</string>
+    <!-- Profile -->
+    <string formatted="false" name="pedit_isolation_enabled">Enable Version Isolation</string>
+    <string formatted="false" name="pedit_reset_icon">This will reset the custom icon you set, and the operation is irreversible. Are you sure you want to reset the version icon?</string>
+    <string formatted="false" name="pedit_unsaved_tip">You have made modifications to this version configuration. Returning directly will lose these changes. Are you sure you want to return directly?</string>
+    <string formatted="false" name="pedit_control">Control Layout</string>
+    <string formatted="false" name="pedit_custom_path">Custom Path</string>
+    <string formatted="false" name="pedit_default">(Use global default)</string>
+    <string formatted="false" name="profile_mods_download_mod">Download Mod</string>
+    <string formatted="false" name="profile_mods_download_mod_release_version">Show only official Minecraft versions</string>
+    <string formatted="false" name="profile_mods_add_mod">Add Mod</string>
+    <string formatted="false" name="profile_mods_added_mod">Successfully Added Mod</string>
+    <string formatted="false" name="profile_mods_disable">Disable</string>
+    <string formatted="false" name="profile_mods_enable">Enable</string>
+    <string formatted="false" name="profile_mods_disable_or_enable">Disable/Enable</string>
+    <!-- Account -->
+    <string formatted="false" name="account_login_done">Login Complete</string>
+    <string formatted="false" name="account_add">Add Account</string>
+    <string formatted="false" name="account_no_saved_accounts">No Saved Accounts</string>
+    <string formatted="false" name="account_remove">This account will be removed from the launcher, are you sure you want to do this?</string>
+    <string formatted="false" name="account_remove_login_type_title">Remove Login Method: %s</string>
+    <string formatted="false" name="account_remove_login_type_message">This login method will be removed from the launcher, but it will not remove your existing account. Are you sure you want to do this?</string>
+    <string formatted="false" name="account_microsoft_account">Microsoft Account</string>
+    <string formatted="false" name="account_microsoft_xerr_unauthorized">Your Microsoft account login information seems to be expired, this often happens after the account password is changed. Please remove the current account and log in again to reset your login information.</string>
+    <string formatted="false" name="account_local_account">Offline Account</string>
+    <string formatted="false" name="account_local_account_empty">Username cannot be empty!</string>
+    <string formatted="false" name="account_local_account_invalid">A valid username only supports English letters (both uppercase and lowercase), numbers, and underscores. The username length must be between 3 and 16 characters. [RED;BOLD]Otherwise, the game may fail to function properly.[/RED;BOLD]\nExamples of valid usernames: Name, Name_, Name123\nExamples of invalid usernames: Name@, N ame, name_name_name_name\nHowever, if you are using mods or plugins that remove this restriction, you can continue using this name. Otherwise, please rename it!</string>
+    <string formatted="false" name="account_login_local_name">Username</string>
+    <string formatted="false" name="account_login_start">Start Login!</string>
+    <string formatted="false" name="account_login_microsoft_progress">Logging in to Microsoft account: %s</string>
+    <string formatted="false" name="account_login_progress_access_token">Fetching access token</string>
+    <string formatted="false" name="account_login_progress_xbl_token">Fetching Xbox Live token</string>
+    <string formatted="false" name="account_login_progress_xsts_token">Fetching Xbox Service Security Token</string>
+    <string formatted="false" name="account_login_progress_minecraft_token">Fetching Minecraft token</string>
+    <string formatted="false" name="account_login_progress_checking">Checking token</string>
+    <string formatted="false" name="account_login_no_network">Not connected to the internet, login skipped!</string>
+    <string formatted="false" name="account_login_skip">Login failed, do you want to skip the login step?</string>
+    <string formatted="false" name="account_no_microsoft_account">Please log in with at least one Minecraft premium account, we do not encourage launching Minecraft without a premium account.</string>
+    <string formatted="false" name="account_no_microsoft_account_local">It seems you are not logged in with a premium account! Offline accounts are a backup solution for players who cannot connect to the internet, not for players without a premium account.</string>
+    <string formatted="false" name="account_no_microsoft_account_other">It seems you are not logged in with a premium account! Are you sure you want to use third-party login without logging in with a premium account?</string>
+    <string formatted="false" name="account_no_microsoft_account_continue">Ignore and continue</string>
+    <string formatted="false" name="account_continue_to_launch_the_game">Continue to Launch Game</string>
+    <string formatted="false" name="account_purchase_minecraft_account">Purchase Minecraft Account</string>
+    <string formatted="false" name="account_purchase_minecraft_account_tip">If you do not have a Minecraft account, please purchase one on the Minecraft official website first!</string>
+    <string formatted="false" name="xerr_unknown">Unknown Xbox Live API error %d</string>
+    <string formatted="false" name="xerr_no_account">It seems you don\'t have an Xbox Live account</string>
+    <string formatted="false" name="xerr_adult_verification">Adult verification required for your account</string>
+    <string formatted="false" name="xerr_child">Your account is a child account, it needs to be added to a family to log in</string>
+    <string formatted="false" name="xerr_not_available">Xbox Live is not available in your country/region</string>
+    <string formatted="false" name="minecraft_not_owned">Minecraft profile not found</string>
+    <string formatted="false" name="no_minecraft_purchase">Please ensure you have purchased Minecraft, log in to your account on https://minecraft.net/ and try again</string>
+    <!-- Jre -->
+    <string formatted="false" name="install_select_jre_environment">Select JRE Environment</string>
+    <string formatted="false" name="install_recommend_use_jre8">Within the execution environment, please try to use JRE 8 to ensure stability</string>
+    <string formatted="false" name="install_auto_select">Let the launcher decide</string>
+    <string formatted="false" name="multirt_runtime_corrupt">Java Runtime Environment Corrupted</string>
+    <string formatted="false" name="multirt_runtime_incompatiblearch">Incompatible architecture: %s</string>
+    <string formatted="false" name="multirt_config_title">Java Runtime Environment</string>
+    <string formatted="false" name="multirt_progress_caching">Caching…</string>
+    <string formatted="false" name="multirt_config_setdefault">Set as Default</string>
+    <string formatted="false" name="multirt_nocompatiblert">No compatible Java Runtime Environment found, this version requires Java %d or later</string>
+    <string formatted="false" name="multirt_nojava8rt">Java 8 not found, to use this option, you must install Java 8</string>
+    <string formatted="false" name="multirt_delete_runtime">Delete Runtime Environment</string>
+    <string formatted="false" name="multirt_import">Import runtime environment</string>
+    <string formatted="false" name="multirt_swap_setdefault">Select default environment</string>
+    <string formatted="false" name="multirt_provided_by_launcher">Built-in</string>
+    <!-- Custom Mouse & Background -->
+    <string formatted="false" name="mouse_settings_speed_name">Virtual Mouse Speed</string>
+    <string formatted="false" name="mouse_settings_scale_name">Virtual Mouse Scale</string>
+    <string formatted="false" name="custom_mouse_add">Add Virtual Mouse</string>
+    <string formatted="false" name="custom_mouse_added">Successfully set virtual mouse:</string>
+    <string formatted="false" name="custom_mouse_default">Default Virtual Mouse</string>
+    <string formatted="false" name="custom_mouse_title">Custom Virtual Mouse</string>
+    <string formatted="false" name="custom_mouse_dialog">You can add mouse images in (Launcher Settings - %s - %s)</string>
+    <string formatted="false" name="custom_mouse_desc">Open the virtual mouse management interface, where you can add your favorite virtual mouse icons and use them</string>
+    <string formatted="false" name="custom_mouse_message_default">The currently selected virtual mouse is the default virtual mouse, sharing, renaming, and deleting operations are not supported</string>
+    <string formatted="false" name="custom_background_add">Add Background Image</string>
+    <string formatted="false" name="custom_background_title">Custom Launcher Background Image</string>
+    <string formatted="false" name="custom_background_desc">Open the launcher background icon management interface, where you can add your favorite background images and set different backgrounds for different interfaces</string>
+    <string formatted="false" name="custom_background_main_menu">Main Menu</string>
+    <string formatted="false" name="custom_background_in_game">In-Game Interface</string>
+    <string formatted="false" name="custom_background_dialog_message">Click the \"Select\" button to set this image as the background for %s</string>
+    <string formatted="false" name="custom_background_selected">Successfully set background image for %s:</string>
+    <string formatted="false" name="custom_background_reset">Reset background image for %s</string>
+    <string formatted="false" name="custom_background_nothing">There are no background images here, please add some first!</string>
+    <!-- File -->
+    <string formatted="false" name="file_folder_dialog_insert_name">Insert folder name</string>
+    <string formatted="false" name="file_create_folder">Create folder</string>
+    <string formatted="false" name="file_select_folder">Select folder</string>
+    <string formatted="false" name="file_add_file">Add file</string>
+    <string formatted="false" name="file_add_file_tip">Please select a file with the suffix %s</string>
+    <string formatted="false" name="file_does_not_exist">This folder (or file) does not exist</string>
+    <string formatted="false" name="file_tips">Operate this file</string>
+    <string formatted="false" name="file_folder_tips">Operate this folder</string>
+    <string formatted="false" name="file_message">Please select the operation you want to perform on this file</string>
+    <string formatted="false" name="file_folder_message">Please select the operation you want to perform on this folder</string>
+    <string formatted="false" name="file_added">File added successfully</string>
+    <string formatted="false" name="file_delete">Are you sure you want to delete this file?</string>
+    <string formatted="false" name="file_delete_dir">Are you sure you want to delete this folder?</string>
+    <string formatted="false" name="file_delete_dir_message">When deleting a folder, all files inside this folder will be deleted as well. If this folder contains important files, please cancel this operation!</string>
+    <string formatted="false" name="file_delete_multiple_items_title">Are you sure you want to delete the selected items?</string>
+    <string formatted="false" name="file_delete_multiple_items_message">This operation will permanently delete all selected items, please proceed with caution!</string>
+    <string formatted="false" name="file_rename_exitis">File name conflicts with an existing file!</string>
+    <string formatted="false" name="file_external_storage">External storage directory</string>
+    <string formatted="false" name="file_software_private">Software private directory</string>
+    <string formatted="false" name="file_multi_select_mode">Enable multi-select mode</string>
+    <string formatted="false" name="file_multi_select_mode_title">Multi-select items</string>
+    <string formatted="false" name="file_multi_select_mode_message">Currently selected a total of %d items</string>
+    <string formatted="false" name="file_operation_file">Operating file… (%s / %s, %d)</string>
+    <string formatted="false" name="file_jump_to_path">Jump to path</string>
+    <string formatted="false" name="file_nothing">No files found!</string>
+    <string formatted="false" name="file_invalid_length">Name too long! (Current length: %d, Maximum length: %d)</string>
+    <!-- Search View -->
+    <string formatted="false" name="search_case_sensitive">Case sensitive</string>
+    <string formatted="false" name="search_only_show_results">Show only search results</string>
+    <string formatted="false" name="search_count">%d search results</string>
+    <!-- Main Page & Settings -->
+    <string formatted="false" name="main_open_main_dir">Open main directory</string>
+    <string formatted="false" name="main_install_jar_file">Execute .jar file</string>
+    <string formatted="false" name="main_share_logs">Share log files</string>
+    <string formatted="false" name="main_launch">Launch Game</string>
+    <string formatted="false" name="setting_category_control">Control settings</string>
+    <string formatted="false" name="setting_category_virtual_mouse">Virtual mouse</string>
+    <string formatted="false" name="setting_category_gyro_controls">Gyro controls</string>
+    <string formatted="false" name="setting_category_controller_settings">Controller settings</string>
+    <string formatted="false" name="setting_category_java_tweaks">Java tweaks</string>
+    <string formatted="false" name="setting_category_video">Video Settings</string>
+    <string formatted="false" name="setting_category_version">Version Settings</string>
+    <string formatted="false" name="setting_category_language">Language</string>
+    <string formatted="false" name="setting_category_personalization">Personalization</string>
+    <string formatted="false" name="setting_category_download">Downloads</string>
+    <string formatted="false" name="setting_category_game">Game Settings</string>
+    <string formatted="false" name="setting_category_launcher">Launcher Settings</string>
+    <string formatted="false" name="setting_category_game_menu">Game Menu</string>
+    <string formatted="false" name="setting_category_experimental">Experimental Settings</string>
+    <string formatted="false" name="setting_category_experimental_patches">Experimental Patches</string>
+    <string formatted="false" name="setting_category_support">External Support</string>
+    <string formatted="false" name="setting_renderer_title">Renderer</string>
+    <string formatted="false" name="setting_renderer_from_plugins">From %s Plugin</string>
+    <string formatted="false" name="setting_renderer_local_import_title">Local Renderer Import</string>
+    <string formatted="false" name="setting_renderer_local_import_desc">In addition to installing software-rendering plugins, the launcher also supports importing renderer plugins locally. However, some devices may not be able to use local renderer plugins, so use with caution!</string>
+    <string formatted="false" name="setting_renderer_local_import_restart">New renderer imported. Please restart the launcher to load it!</string>
+    <string formatted="false" name="setting_renderer_local_import_failed">Failed to import the renderer plugin. The file format of the compressed package might be incorrect, or the plugin may conflict with other plugins!</string>
+    <string formatted="false" name="setting_renderer_local_manage">Manage Local Renderer Plugins</string>
+    <string formatted="false" name="setting_renderer_local_delete">Are you sure you want to delete this renderer plugin? This action cannot be undone!</string>
+    <string formatted="false" name="setting_driver_title">Vulkan Driver</string>
+    <string formatted="false" name="setting_ignore_notch_title">Fullscreen Mode</string>
+    <string formatted="false" name="setting_ignore_notch_desc">Ignore the notch and extend the screen content to full screen for a more immersive experience</string>
+    <string formatted="false" name="setting_launcher_ignore_notch_title">Fullscreen Mode (Non-Game)</string>
+    <string formatted="false" name="setting_launcher_ignore_notch_desc">On non-game interfaces, ignore the notch and extend the screen content to fullscreen</string>
+    <string formatted="false" name="setting_resolution_scaler_title">Resolution Scaling</string>
+    <string formatted="false" name="setting_resolution_scaler_desc">Allows adjusting the game\'s resolution, with native resolution set to 100%</string>
+    <string formatted="false" name="setting_use_surface_view_title">Use Alternative Surface Rendering</string>
+    <string formatted="false" name="setting_use_surface_view_desc">May help improve performance on devices limited by GPU capabilities</string>
+    <string formatted="false" name="setting_sustained_performance_title">Enable Sustained Performance Mode</string>
+    <string formatted="false" name="setting_force_vsync_title">Force V-Sync</string>
+    <string formatted="false" name="setting_limit_overheating_throttling">Prevent overheating throttling by limiting peak performance</string>
+    <string formatted="false" name="setting_vsync_in_zink_title">Allow V-Sync with Zink</string>
+    <string formatted="false" name="setting_vsync_in_zink_desc">Allows the launcher to use internal system APIs to enable V-Sync for Zink</string>
+    <string formatted="false" name="setting_vulkan_driver_system_title">Use System Vulkan Driver</string>
+    <string formatted="false" name="setting_vulkan_driver_system_desc">Forces the launcher to use the system Vulkan driver on Adreno GPUs instead of Turnip, only affects Zink and mods using Vulkan</string>
+    <string formatted="false" name="setting_longpress_trigger_title">Long Press Trigger Delay</string>
+    <string formatted="false" name="setting_longpress_trigger_desc">Change the delay for triggering long press actions like breaking blocks or dropping items</string>
+    <string formatted="false" name="setting_button_scale_title">Control Layout Scaling</string>
+    <string formatted="false" name="setting_button_scale_desc">If the buttons are too small, you can enlarge them</string>
+    <string formatted="false" name="setting_mouse_scale_desc">Modify the size of the virtual mouse</string>
+    <string formatted="false" name="setting_mouse_speed_desc">Modify the movement speed of the virtual mouse</string>
+    <string formatted="false" name="setting_mouse_start_title">Show Virtual Mouse by Default on Game Start</string>
+    <string formatted="false" name="setting_mouse_start_desc">When this option is enabled, the virtual mouse will appear on startup</string>
+    <string formatted="false" name="setting_disable_gestures_title">Disable Gestures</string>
+    <string formatted="false" name="setting_disable_gestures_desc">Disable gestures such as long press to break blocks, tap to place blocks</string>
+    <string formatted="false" name="setting_disable_swap_hand_title">Disable Double Tap to Swap Items</string>
+    <string formatted="false" name="setting_disable_swap_hand_desc">Disable double tapping an item in the hotbar to swap it with the off-hand item</string>
+    <string formatted="false" name="setting_button_allcaps_title">Use All Caps in Button Labels</string>
+    <string formatted="false" name="setting_button_allcaps_desc">Disable this if you want to use lowercase letters in the control layout</string>
+    <string formatted="false" name="setting_gyro_invert_x_axis">Invert X Axis</string>
+    <string formatted="false" name="setting_gyro_invert_y_axis">Invert Y Axis</string>
+    <string formatted="false" name="setting_gyro_invert_x_axis_description">Invert the horizontal axis</string>
+    <string formatted="false" name="setting_gyro_invert_y_axis_description">Invert the vertical axis</string>
+    <string formatted="false" name="setting_enable_gyro_title">Enable Gyroscope Control</string>
+    <string formatted="false" name="setting_enable_gyro_desc">Enabling this will allow you to rotate the camera in-game by rotating your device</string>
+    <string formatted="false" name="setting_gyro_smoothing_title">Enable Gyroscope Smoothing</string>
+    <string formatted="false" name="setting_gyro_smoothing_desc">Reduces jitter but increases latency</string>
+    <string formatted="false" name="setting_gyro_sensitivity_title">Gyroscope Control Sensitivity</string>
+    <string formatted="false" name="setting_gyro_sensitivity_desc">Adjust the sensitivity of gyroscope control</string>
+    <string formatted="false" name="setting_gyro_sample_rate_title">Gyroscope Sample Rate</string>
+    <string formatted="false" name="setting_gyro_sample_rate_description">Increase this value if you experience performance issues with gyroscope control</string>
+    <string formatted="false" name="setting_remap_controller_title">Remap Controller Buttons</string>
+    <string formatted="false" name="setting_remap_controller_desc">Allows you to modify the keyboard keys bound to each controller button</string>
+    <string formatted="false" name="setting_controller_map_wiped">Controller mapping has been reset</string>
+    <string formatted="false" name="setting_wipe_controller_title">Reset Controller Mapping</string>
+    <string formatted="false" name="setting_wipe_controller_desc">Allows you to remap controller buttons</string>
+    <string formatted="false" name="setting_deadzone_scale_title">Joystick Deadzone Scale</string>
+    <string formatted="false" name="setting_deadzone_scale_desc">Increase this option if the joystick drifts</string>
+    <string formatted="false" name="setting_java_multirt_title">Runtime Environment Manager</string>
+    <string formatted="false" name="setting_java_multirt_desc">Manage installed Java Runtime Environments</string>
+    <string formatted="false" name="setting_java_select_runtime_title">Select Runtime Before Execution</string>
+    <string formatted="false" name="setting_java_select_runtime_desc">The Java runtime environment to be used before entering the execution environment</string>
+    <string formatted="false" name="setting_java_select_runtime_ask_me">Let me choose temporarily</string>
+    <string formatted="false" name="setting_java_select_runtime_default">Current default runtime environment</string>
+    <string formatted="false" name="setting_java_args_title">JVM Startup Arguments</string>
+    <string formatted="false" name="setting_java_args_desc">Additional JVM arguments added when launching Minecraft. It is not recommended to modify this without confidence, as it may cause the game to crash</string>
+    <string formatted="false" name="setting_java_memory_title">Memory Allocation</string>
+    <string formatted="false" name="setting_java_memory_desc">Control how much memory is allocated to Minecraft</string>
+    <string formatted="false" name="setting_java_memory_info">Current memory usage: %s / %s, Free memory: %s</string>
+    <string formatted="false" name="setting_java_memory_exceeded">The memory space set currently exceeds the available memory size</string>
+    <string formatted="false" name="setting_java_sandbox_title">Enable Sandbox Security Manager</string>
+    <string formatted="false" name="setting_java_sandbox_desc">Whether to enable the sandbox security manager when executing .jar files</string>
+    <string formatted="false" name="setting_check_libraries_title">Check Libraries After Download</string>
+    <string formatted="false" name="setting_check_libraries_desc">This option forces the launcher to check the libraries when the hash is available, preventing download errors</string>
+    <string formatted="false" name="setting_shader_dump_title">Enable Shader Output</string>
+    <string formatted="false" name="setting_shader_dump_desc">Logs converted shaders to a log file</string>
+    <string formatted="false" name="setting_force_big_core_title">Force Renderer to Run on Big Core</string>
+    <string formatted="false" name="setting_force_big_core_desc">Forces the Minecraft rendering thread to run on the highest frequency core</string>
+    <string formatted="false" name="setting_touch_controller_vibrate_duration_title">TouchController Mod Vibration Duration</string>
+    <string formatted="false" name="setting_touch_controller_vibrate_duration_desc">Set the vibration duration for this mod to suit different usage needs.</string>
+    <string formatted="false" name="setting_verify_manifest_title">Game Version List Check</string>
+    <string formatted="false" name="setting_verify_manifest_desc">When enabled, the launcher will check the game version list and libraries</string>
+    <string formatted="false" name="setting_resource_image_cache_title">Cache resource images</string>
+    <string formatted="false" name="setting_resource_image_cache_desc">When enabled, the launcher will cache the cover images and screenshots of resources for faster loading next time</string>
+    <string formatted="false" name="setting_resource_full_name_title">Resource Full Name Prefix</string>
+    <string formatted="false" name="setting_resource_full_name_desc">When downloading resource files, whether to add the full name of the resource as a prefix to the custom file name</string>
+    <string formatted="false" name="setting_download_source_title">Game Download Source</string>
+    <string formatted="false" name="setting_download_source_desc">Choose a mirror download source instead of using the official download source</string>
+    <string formatted="false" name="setting_max_download_threads_title">Max Download Threads</string>
+    <string formatted="false" name="setting_max_download_threads_desc">Maximum number of concurrent downloads when downloading multiple files simultaneously, but too many threads will cause launcher lag. 64 threads are sufficient!</string>
+    <string formatted="false" name="setting_version_isolation_title">Version Isolation</string>
+    <string formatted="false" name="setting_version_isolation_desc">Enable version isolation for the game version\nWhen disabled, the game path will be .minecraft/\nWhen enabled, the game path will change to .minecraft/versions/&lt;version name&gt;/</string>
+    <string formatted="false" name="setting_version_custom_info_title">Custom Info</string>
+    <string formatted="false" name="setting_version_custom_info_desc">Custom info will be displayed in the lower-left corner of the game’s main menu and the upper-left corner of the F3 debug screen. After adding the [zl_version] field, the launcher will replace it with the launcher version number.</string>
+    <string formatted="false" name="setting_set_game_language_title">Auto Set Game Language</string>
+    <string formatted="false" name="setting_set_game_language_desc">Automatically set the game language to the selected language when the game starts</string>
+    <string formatted="false" name="setting_set_game_language_list">Set Game Language</string>
+    <string formatted="false" name="setting_set_game_language_system">Follow System Language</string>
+    <string formatted="false" name="setting_set_game_language_overridden_title">Override Game Language</string>
+    <string formatted="false" name="setting_set_game_language_overridden_desc">Ignore the language set in the game and force it to be the language set in the launcher</string>
+    <string formatted="false" name="setting_launcher_theme">Launcher Theme</string>
+    <string formatted="false" name="setting_launcher_theme_system">Follow System Theme</string>
+    <string formatted="false" name="setting_launcher_theme_light">Light Mode</string>
+    <string formatted="false" name="setting_launcher_theme_dark">Dark Mode</string>
+    <string formatted="false" name="setting_enable_log_output_title">Open Log Output When Launching Game</string>
+    <string formatted="false" name="setting_enable_log_output_desc">Enable the log output interface when the application officially starts the game</string>
+    <string formatted="false" name="setting_animation_title">Enable Animations</string>
+    <string formatted="false" name="setting_animation_desc">Set whether to play animations when switching interfaces in the launcher</string>
+    <string formatted="false" name="setting_animation_speed_title">Animation Speed</string>
+    <string formatted="false" name="setting_animation_speed_desc">Set the speed of animations in the launcher</string>
+    <string formatted="false" name="setting_page_opacity_title">Page Opacity</string>
+    <string formatted="false" name="setting_page_opacity_desc">Set the opacity of the main pages in the launcher</string>
+    <string formatted="false" name="setting_quit_launcher_title">Quit Launcher</string>
+    <string formatted="false" name="setting_quit_launcher_desc">Whether to quit the launcher when the application officially starts the game</string>
+    <string formatted="false" name="setting_accept_pre_release_updates_title">Receive Pre-release Updates</string>
+    <string formatted="false" name="setting_accept_pre_release_updates_desc">This setting determines whether the launcher can receive pre-release updates</string>
+    <string formatted="false" name="setting_ask_for_notification_title">Allow Notifications</string>
+    <string formatted="false" name="setting_ask_for_notification_desc">Click to re-request notification permissions, which are necessary for the normal background download of game files</string>
+    <string formatted="false" name="setting_game_menu_show_memory_title">Real-time Memory Info Display</string>
+    <string formatted="false" name="setting_game_menu_show_memory_desc">Show real-time memory information on the game menu floating window</string>
+    <string formatted="false" name="setting_game_menu_show_fps_title">Show real-time FPS</string>
+    <string formatted="false" name="setting_game_menu_show_fps_desc">Show real-time FPS on the game menu floating window</string>
+    <string formatted="false" name="setting_game_menu_memory_text_title">Memory Info Prefix Text</string>
+    <string formatted="false" name="setting_game_menu_memory_text_desc">You can customize this prefix text according to your needs</string>
+    <string formatted="false" name="setting_game_menu_info_refresh_rate_title">Information Refresh Rate</string>
+    <string formatted="false" name="setting_game_menu_info_refresh_rate_desc">Controls the refresh rate of the information displayed on the game menu floating window. Refreshing too frequently may cause performance issues.</string>
+    <string formatted="false" name="setting_game_menu_location_title">Game Menu Floating Window Initial Position</string>
+    <string formatted="false" name="setting_game_menu_location_center">Center</string>
+    <string formatted="false" name="setting_game_menu_location_bottom_or_center">Bottom Center</string>
+    <string formatted="false" name="setting_game_menu_location_top_or_center">Top Center</string>
+    <string formatted="false" name="setting_game_menu_location_left_or_top">Top Left</string>
+    <string formatted="false" name="setting_game_menu_location_left_or_bottom">Bottom Left</string>
+    <string formatted="false" name="setting_game_menu_location_right_or_top">Top Right</string>
+    <string formatted="false" name="setting_game_menu_location_right_or_bottom">Bottom Right</string>
+    <string formatted="false" name="setting_game_menu_alpha_title">Floating Window Opacity</string>
+    <string formatted="false" name="setting_game_menu_alpha_desc">Set the opacity of the game menu floating window</string>
+    <string formatted="false" name="setting_reboot_tip">This setting has been changed, but requires the app to be restarted to take effect!</string>
+    <string formatted="false" name="setting_zink_driver_adreno">The launcher detected that your device has an Adreno GPU. Enabling this option may cause the Zink renderer to malfunction. Are you sure you want to enable this option?</string>
+    <!-- Game -->
+    <string formatted="false" name="game_exit_message">The application/game exited with code %d.</string>
+    <string formatted="false" name="game_singnal_message">The application/game aborted due to fatal signal %d.</string>
+    <string formatted="false" name="game_exit_note">For details on the error, please check the log file or crash report. If you can\'t solve the issue on your own, please send the log file or crash report to someone who can help you resolve it!</string>
+    <string formatted="false" name="game_exit_no_screenshot">Please don\'t just take a screenshot of the current app interface; otherwise, no one will know what happened. Share your log file or crash report!</string>
+    <string formatted="false" name="game_autopick_runtime_failed">No suitable runtime environment found, set to the runtime environment selected for the current version</string>
+    <string formatted="false" name="game_tip">The game is currently running. You can enable log output via the menu to check the game\'s status.</string>
+    <string formatted="false" name="game_tip_version">Currently launched game version:</string>
+    <string formatted="false" name="game_tip_mc_info">Minecraft Info:</string>
+    <!-- Download -->
+    <string formatted="false" name="download_classify_mod">Download Mod</string>
+    <string formatted="false" name="download_classify_modpack">Download Modpack</string>
+    <string formatted="false" name="download_classify_resource_pack">Download Resource Pack</string>
+    <string formatted="false" name="download_classify_world">Download World</string>
+    <string formatted="false" name="download_classify_shader_pack">Download Shader Pack</string>
+    <string formatted="false" name="download_ui_install_local">Install from local</string>
+    <string formatted="false" name="download_ui_search">Search Name</string>
+    <string formatted="false" name="download_ui_mc_version">MC Version</string>
+    <string formatted="false" name="download_ui_platform">Search Platform</string>
+    <string formatted="false" name="download_ui_sort_by">Sort By</string>
+    <string formatted="false" name="download_ui_category">Category Filter</string>
+    <string formatted="false" name="download_ui_modloader">Mod Loader</string>
+    <string formatted="false" name="download_ui_sort_by_relevant">Relevance</string>
+    <string formatted="false" name="download_ui_sort_by_total_downloads">Total Downloads</string>
+    <string formatted="false" name="download_ui_sort_by_popularity">Popularity</string>
+    <string formatted="false" name="download_ui_sort_by_recently_created">Recently Created</string>
+    <string formatted="false" name="download_ui_sort_by_recently_updated">Recently Updated</string>
+    <string formatted="false" name="download_info_downloads">Downloads:</string>
+    <string formatted="false" name="download_info_author">Author:</string>
+    <string formatted="false" name="download_info_date">Creation Date:</string>
+    <string formatted="false" name="download_info_modloader">Compatible With:</string>
+    <string formatted="false" name="download_info_dependencies">Dependency Type:</string>
+    <string formatted="false" name="download_info_load_screenshot">Show Screenshot</string>
+    <string formatted="false" name="download_search_failed">Failed to search for resources!</string>
+    <string formatted="false" name="download_search_no_result">No related resources found!</string>
+    <string formatted="false" name="download_search_platform_not_supported">The current platform does not support downloading this type of resource, or does not support this category filter!</string>
+    <string formatted="false" name="download_install_custom_name">Custom File Name</string>
+    <string formatted="false" name="download_install_download_file">Downloading resource file (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string formatted="false" name="download_install_dependencies">%s has the following dependencies or incompatible mods</string>
+    <string formatted="false" name="download_install_dependencies_tip">Please download the required dependency mods as needed. Missing essential dependencies or installing incompatible mods may cause the game to fail to run!</string>
+    <string formatted="false" name="download_install_dependencies_required">Required</string>
+    <string formatted="false" name="download_install_dependencies_optional">Optional</string>
+    <string formatted="false" name="download_install_dependencies_incompatible">Incompatible</string>
+    <string formatted="false" name="download_install_dependencies_embedded">Embedded</string>
+    <string formatted="false" name="download_install_dependencies_tool">Tool</string>
+    <string formatted="false" name="download_install_dependencies_include">Includes</string>
+    <string formatted="false" name="download_install">Download %s</string>
+    <string formatted="false" name="download_install_is_adapt">Current version %s is available</string>
+    <string formatted="false" name="download_install_unpack_world_error">Unable to recognize file structure, automatic unpacking failed, please handle the file manually!</string>
+    <!-- ModPack -->
+    <string formatted="false" name="select_modpack_local_tip">Please select a modpack file that the launcher supports importing!</string>
+    <string formatted="false" name="select_modpack_local_not_supported">This modpack is not supported by the launcher! The launcher only supports importing modpacks in Modrinth, CurseForge, and MCBBS formats. Please check if your modpack is made according to the specified formats!</string>
+    <string formatted="false" name="select_modpack_local_installing_files">Installing game files… (%d / %d)</string>
+    <string formatted="false" name="modpack_download_downloading_metadata">Downloading modpack metadata (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string formatted="false" name="modpack_download_downloading_mods">Downloading mods (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string formatted="false" name="modpack_download_downloading_mods_fc">Downloading mods (Downloaded files: %d (%s), Total files: %d, Speed: %s/s)</string>
+    <string formatted="false" name="modpack_download_applying_overrides">Applying overrides (%d/%d)</string>
+    <string formatted="false" name="modpack_install_download_failed">Failed to download modpack file</string>
+    <string formatted="false" name="modpack_prepare_mod_loader_installation">All mods have been installed, preparing to install mod loader</string>
+    <!-- Clear Up -->
+    <string formatted="false" name="clear_up_cache">Clear Cache</string>
+    <string formatted="false" name="clear_up_cache_desc">Check and clean up the app\'s cache files. Clearing cache files does not affect the normal use of the app.</string>
+    <string formatted="false" name="clear_up_cache_not_found">No cache files were found.</string>
+    <string formatted="false" name="clear_up_cache_clean_up">Cleaning complete. A total of %s of cache files were cleared this time.</string>
+    <!-- Check Update -->
+    <string formatted="false" name="update">Check for Updates</string>
+    <string formatted="false" name="update_dialog_title">New Version Detected</string>
+    <string formatted="false" name="update_dialog_version">Version:</string>
+    <string formatted="false" name="update_dialog_time">Date:</string>
+    <string formatted="false" name="update_dialog_file_size">Package Size:</string>
+    <string formatted="false" name="update_dialog_yes">Update</string>
+    <string formatted="false" name="update_dialog_ignore">Ignore This Update</string>
+    <string formatted="false" name="update_summary">Get and update to the latest version</string>
+    <string formatted="false" name="update_without">The current version is the latest.</string>
+    <string formatted="false" name="update_fail">Network error, unable to check for updates at the moment!</string>
+    <string formatted="false" name="update_fail_code">Network error, unable to check for updates at the moment! Error code: %d</string>
+    <string formatted="false" name="update_success">The latest installation package has been downloaded. Do you want to install it? Package location:</string>
+    <string formatted="false" name="update_downloading">Downloading installation package… (%s / %s)</string>
+    <string formatted="false" name="update_downloading_tip">Fetching, update source: %s</string>
+    <!-- Other Login -->
+    <string formatted="false" name="other_login_server">Auth Server</string>
+    <string formatted="false" name="other_login_email">Email or Username</string>
+    <string formatted="false" name="other_login_password">Password</string>
+    <string formatted="false" name="other_login_uniform_pass">Unified Passport</string>
+    <string formatted="false" name="other_login_yggdrasil_api">Please enter the Yggdrasil API authentication server address</string>
+    <string formatted="false" name="other_login_32_bit_server">Please enter the 32-bit server ID</string>
+    <string formatted="false" name="other_login_error">An error occurred during login:\n</string>
+    <string formatted="false" name="other_login_baseurl_not_set">Base URL Not Set</string>
+    <string formatted="false" name="other_login_server_not_empty">Server cannot be empty, please check the authentication server settings!</string>
+    <string formatted="false" name="other_login_select_role_title">Select Role</string>
+    <string formatted="false" name="other_login_select_role_message">Multiple roles exist for the current account, please select the role you want to use</string>
+    <string formatted="false" name="other_login_registry_now">No account? Click here to register one!</string>
+    <string formatted="false" name="other_login_role_not_found">Role matching the current account not found, please check if this role exists on the server you are using!</string>
+    <!-- Splash -->
+    <string formatted="false" name="splash_screen_desc">The launcher needs to install these contents to ensure Minecraft can start properly. These contents are included in the app and need to be extracted before they can be used. Click the button below to start extracting and updating these contents.</string>
+    <string formatted="false" name="splash_screen_installing">The launcher is extracting these contents. The main interface will automatically open after extraction is complete. Please wait patiently.</string>
+    <string formatted="false" name="splash_screen_lwjgl">Lightweight Java Game Library, Minecraft relies on it to run the game.</string>
+    <string formatted="false" name="splash_screen_cacio">Provides a portable GUI backend for OpenJDK.</string>
+    <string formatted="false" name="splash_screen_authlib_injector">Injects authlib via runtime to enable login outside the game.</string>
+    <string formatted="false" name="splash_screen_components">Some components that the launcher depends on.</string>
+    <string formatted="false" name="splash_screen_jre8">Java 8 environment, Minecraft 1.16- depends on Java 8.</string>
+    <string formatted="false" name="splash_screen_jre17">Java 17 environment, Minecraft 1.17+ depends on Java 17.</string>
+    <string formatted="false" name="splash_screen_jre21">Java 21 environment, Minecraft 1.20.5+ depends on Java 21.</string>
+    <string formatted="false" name="splash_screen_jre25">Java 25 environment, Minecraft 26.1+ depends on Java 25.</string>
+    <string formatted="false" name="splash_screen_apply">Agree and Install</string>
+    <!-- About -->
+    <string formatted="false" name="about_tab">About %s</string>
+    <string formatted="false" name="about_dec1">%s is a Minecraft launcher based on PojavLauncher that allows Minecraft: Java Edition to run on Android devices.</string>
+    <string formatted="false" name="about_dec2">%s focuses on optimizing user experience, redesigning the application interface, and adding more practical features, aiming to lower the barriers to play and let more people enjoy the fun of Minecraft easily.</string>
+    <string formatted="false" name="about_dec3">%s uses the GPL 3.0 open-source license, which is "viral." Any code that uses, modifies, or derives from GPL libraries or software must also adopt the GPL license for open sourcing. If you intend to distribute this software, please comply with the relevant provisions of the GPL 3.0 open-source license.</string>
+    <string formatted="false" name="about_contributors">Contributors and Acknowledgements:</string>
+    <string formatted="false" name="about_sponsors">Acknowledgements to Sponsors:</string>
+    <string formatted="false" name="about_sponsors_list">View Sponsors List</string>
+    <string formatted="false" name="about_sponsors_desc">The following are all the sponsors who support the development, thank you very much!</string>
+    <string formatted="false" name="about_sponsors_amount">Time and Total Amount</string>
+    <string formatted="false" name="about_button_support_development">Sponsor Development</string>
+    <string formatted="false" name="about_MovTery_desc">Main author of the launcher</string>
+    <string formatted="false" name="about_PojavLauncher_desc">The development team of PojavLauncher, who developed and open-sourced PojavLauncher</string>
+    <string formatted="false" name="about_mcmod_desc">The launcher uses Mod and modpack Chinese translations from MC Wiki</string>
+    <string formatted="false" name="about_VeraFirefly_desc">Provided technical support for rendering in the launcher</string>
+    <string formatted="false" name="about_LingMuQiuZhu_desc">Provided technical support for the launcher</string>
+    <string formatted="false" name="about_ShirosakiMio_desc">Provided technical support for the launcher and fixed some bugs</string>
+    <string formatted="false" name="about_bangbang93_desc">The launcher uses the BMCLAPI mirror source created by them</string>
+    <string formatted="false" name="about_access_space">Access Space</string>
+    <string formatted="false" name="about_access_link">Access Link</string>
+    <string formatted="false" name="about_version_name">Software Version Name:</string>
+    <string formatted="false" name="about_version_code">Software Version Code:</string>
+    <string formatted="false" name="about_last_update_time">Last Update Time:</string>
+    <string formatted="false" name="about_version_status">Version Status:</string>
+    <!-- Newbie Guide -->
+    <string formatted="false" name="newbie_guide_general_close">Click this button to close and return to the previous interface.</string>
+    <string formatted="false" name="newbie_guide_general_refresh">Click this button to refresh the current content.</string>
+    <string formatted="false" name="newbie_guide_control_search">When there are too many control layouts, click this button to summon a search box and use it to search for the desired control layout!</string>
+    <string formatted="false" name="newbie_guide_control_import">Click to open Android\'s file manager, select your control layout file, and import it into the launcher!</string>
+    <string formatted="false" name="newbie_guide_control_create">Click this button to quickly create a new control layout!</string>
+    <string formatted="false" name="newbie_guide_background_reset">Click this button to quickly reset the background image of the currently selected interface.</string>
+    <string formatted="false" name="newbie_guide_background_import">Click to open Android\'s file manager, select your background image file, and import it into the launcher!</string>
+    <string formatted="false" name="newbie_guide_mouse_import">Click to open the native file manager, select your virtual mouse image file, and import it into the launcher!</string>
+    <string formatted="false" name="newbie_guide_file_search">Want to quickly search for files? Click this button to summon a search box and use it to search for files.</string>
+    <string formatted="false" name="newbie_guide_file_import">Click to open Android\'s file manager, select the file you want to import, and import it into the launcher!</string>
+    <string formatted="false" name="newbie_guide_file_create_folder">Click this button to create a new folder in the current directory.</string>
+    <string formatted="false" name="newbie_guide_file_select">Click to confirm this directory as the selection.</string>
+    <string formatted="false" name="newbie_guide_mod_search">Click to summon a search box and use it to quickly find the Mod you\'re looking for.</string>
+    <string formatted="false" name="newbie_guide_mod_import">Select a Mod file in the native file manager to import it into the current Mod folder.</string>
+    <string formatted="false" name="newbie_guide_mod_download">Click to enter the Mod download page where you can search and download Mods online.</string>
+    <string formatted="false" name="newbie_guide_game_menu">You can drag the game menu floating window to any position on the screen.</string>
+    <!-- Sponsorship Related -->
+    <string formatted="false" name="request_sponsorship_title">Support My Development</string>
+    <string formatted="false" name="request_sponsorship_message">Most of the content in this software is developed and maintained by me alone. If you find this software helpful and are in a position to do so, I hope you will consider sponsoring me to give me more motivation to continue developing and improving it. Thank you for your support!</string>
+</resources>
