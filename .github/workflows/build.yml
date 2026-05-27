@@ -1,7 +1,7 @@
-name: List Tasks
+name: Build All Tasks
 on: [push]
 jobs:
-  list-tasks:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -11,6 +11,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       
-      # Wyświetlamy dostępne zadania dla projektu :RealFitrexLauncher
-      - name: List Tasks
-        run: ./gradlew :RealFitrexLauncher:tasks
+      # Wyświetlamy absolutnie wszystkie zadania, nawet te ukryte
+      - name: List All Tasks
+        run: ./gradlew :RealFitrexLauncher:tasks --all
