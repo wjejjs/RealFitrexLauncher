@@ -1,7 +1,7 @@
-name: Build Android APK
+name: List Tasks
 on: [push]
 jobs:
-  build:
+  list-tasks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -10,14 +10,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-
-      # Budujemy tylko moduł aplikacji
-      - name: Build with Gradle
-        run: ./gradlew :RealFitrexLauncher:assembleDebug
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: RealFitrex-APK
-          # Szukamy APK wewnątrz folderu tego modułu
-          path: 'RealFitrexLauncher/build/outputs/apk/debug/*.apk'
+      
+      # Wyświetlamy dostępne zadania dla projektu :RealFitrexLauncher
+      - name: List Tasks
+        run: ./gradlew :RealFitrexLauncher:tasks
