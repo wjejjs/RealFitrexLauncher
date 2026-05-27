@@ -22,11 +22,11 @@ jobs:
       - name: Build Debug APK
         run: |
           chmod +x gradlew
-          ./gradlew :ZalithLauncher:assembleDebug
+          ./gradlew :RealFitrexLauncher:assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: RealFitrex-Launcher
-          path: ZalithLauncher/build/outputs/apk/debug/*.apk
+          name: RealFitrexLauncher
+          path: RealFitrexLauncher/build/outputs/apk/debug/*.apk
 
