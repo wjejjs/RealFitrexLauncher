@@ -10,11 +10,12 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      
-      # Wyświetlamy listę wszystkich plików, aby zobaczyć gdzie jest kod
-      - name: List files
-        run: ls -R
-      
-      # Wyświetlamy strukturę projektów
-      - name: Show projects
-        run: ./gradlew projects
+
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: '**/build/outputs/apk/debug/*.apk'
