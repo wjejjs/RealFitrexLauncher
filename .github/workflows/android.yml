@@ -58,8 +58,8 @@ jobs:
         continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
-          name: ZalithLauncher(Release) ${{ matrix.arch }}
-          path: ZalithLauncher/build/outputs/apk/release/*
+          name: RealFitrexLauncher(Release) ${{ matrix.arch }}
+          path: RealFitrexLauncher/build/outputs/apk/release/*
 
   BuildDebug:
     if: startsWith(github.ref, 'refs/pull/') || github.ref_name != 'main'
@@ -93,5 +93,5 @@ jobs:
       - name: Upload Debug ${{matrix.arch}}
         uses: actions/upload-artifact@v4
         with:
-          name: ZalithLauncher(Debug) ${{ matrix.arch }}
-          path: ZalithLauncher/build/outputs/apk/debug/*
+          name: RealFitrexLauncher(Debug) ${{ matrix.arch }}
+          path: RealFitrexLauncher/build/outputs/apk/debug/*
